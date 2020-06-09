@@ -1,0 +1,21 @@
+<h4>{{ title }}</h4><br/>
+
+<table>
+    <thead>
+        <tr>
+            <th>S NO</th>
+            <th>NAME</th>
+            <th>EMAIL</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for user in users %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+

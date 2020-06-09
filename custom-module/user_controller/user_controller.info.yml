@@ -1,0 +1,5 @@
+name: User Controller with Template
+description: Custom Module with user controller and template
+package: Custom
+type: module
+core: 8.x

@@ -1,0 +1,7 @@
+user_controller.user_list:
+  path: '/users/list'
+  defaults: 
+    _controller: '\Drupal\user_controller\Controller\UserController::page'
+    _title: 'User List'
+  requirements:
+    _permission: 'access control'
